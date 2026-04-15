@@ -1,0 +1,14 @@
+import type { Config } from 'tailwindcss';
+
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Noto Sans JP', 'sans-serif'],
+        serif: ['Noto Serif JP', 'serif'],
+      },
+    },
+  },
+  plugins: [],
+} satisfies Config;
